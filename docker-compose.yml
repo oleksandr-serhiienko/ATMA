@@ -1,0 +1,11 @@
+version: '3.3'
+services:
+  atma_api:
+    container_name: atma_api
+    build:
+      dockerfile: Dockerfile
+      context: .
+    ports:
+      - "5005:80"
+      - "5010:443"
+    restart: always
