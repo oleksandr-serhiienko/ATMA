@@ -1,4 +1,4 @@
-#ATMA
+# ATMA
 
 This project is implemented as part of test tasks for interview process with ATMA. 
 
